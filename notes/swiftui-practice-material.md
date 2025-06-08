@@ -171,6 +171,218 @@ struct GradientView: View {
 }
 ```
 
+## Chapter 5: SF Symbols and System Icons
+
+### Exercise 5.1: Using SF Symbols (Beginner)
+
+**Goal**: Learn to use Apple's system icons (like Font Awesome in web development)
+
+```swift
+struct SFSymbolsView: View {
+    var body: some View {
+        VStack(spacing: 30) {
+            // Basic symbol
+            Image(systemName: "star.fill")
+                .font(.largeTitle)
+                .foregroundColor(.yellow)
+
+            // Symbol with text
+            HStack {
+                Image(systemName: "envelope.fill")
+                    .foregroundColor(.blue)
+                Text("Messages")
+            }
+            .font(.title2)
+
+            // Customized symbols
+            HStack(spacing: 30) {
+                Image(systemName: "heart.fill")
+                    .font(.system(size: 50))
+                    .foregroundColor(.red)
+
+                Image(systemName: "bolt.fill")
+                    .font(.system(size: 50))
+                    .foregroundColor(.yellow)
+                    .rotationEffect(.degrees(15))
+
+                Image(systemName: "cloud.rain.fill")
+                    .font(.system(size: 50))
+                    .foregroundColor(.gray)
+            }
+
+            // Multi-color symbols
+            Image(systemName: "battery.100")
+                .font(.system(size: 40))
+                .foregroundColor(.green)
+                .symbolRenderingMode(.multicolor)
+        }
+    }
+}
+```
+
+**Python Comparison**: Like using Font Awesome icons in web development, but built into iOS
+
+### Exercise 5.2: Creating Icon Buttons (Beginner)
+
+**Goal**: Make interactive buttons with icons
+
+```swift
+struct IconButtonsView: View {
+    @State private var isLiked = false
+    @State private var isBookmarked = false
+
+    var body: some View {
+        VStack(spacing: 40) {
+            // Like button with animation
+            Button(action: {
+                isLiked.toggle()
+            }) {
+                Image(systemName: isLiked ? "heart.fill" : "heart")
+                    .font(.system(size: 40))
+                    .foregroundColor(isLiked ? .red : .gray)
+                    .scaleEffect(isLiked ? 1.2 : 1.0)
+                    .animation(.spring(), value: isLiked)
+            }
+
+            // Action toolbar
+            HStack(spacing: 40) {
+                Button(action: {}) {
+                    Image(systemName: "square.and.arrow.up")
+                        .font(.title)
+                        .foregroundColor(.blue)
+                }
+
+                Button(action: {
+                    isBookmarked.toggle()
+                }) {
+                    Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
+                        .font(.title)
+                        .foregroundColor(isBookmarked ? .orange : .gray)
+                }
+            }
+        }
+    }
+}
+```
+
+**Beginner Tip**: Use SF Symbols app to browse all 4,000+ icons!
+
+## Chapter 6: Working with Images
+
+### Exercise 6.1: Displaying Images (Beginner)
+
+**Goal**: Learn to work with images in SwiftUI
+
+```swift
+struct ImagesView: View {
+    var body: some View {
+        ScrollView {
+            VStack(spacing: 30) {
+                // From SF Symbols
+                Image(systemName: "photo")
+                    .font(.largeTitle)
+                    .foregroundColor(.blue)
+
+                // Placeholder for asset image
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(width: 200, height: 200)
+                    .overlay(
+                        VStack {
+                            Image(systemName: "person.fill")
+                                .font(.system(size: 60))
+                                .foregroundColor(.gray)
+                            Text("Profile Photo")
+                                .foregroundColor(.gray)
+                        }
+                    )
+
+                // Styled image
+                Image(systemName: "star.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100, height: 100)
+                    .foregroundColor(.yellow)
+                    .background(Color.blue)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle()
+                            .stroke(Color.white, lineWidth: 4)
+                    )
+                    .shadow(radius: 10)
+            }
+        }
+    }
+}
+```
+
+**Python Comparison**: Like using PIL/Pillow for image manipulation, but with UI focus
+
+### Exercise 6.2: Image Compositions (Beginner)
+
+**Goal**: Create complex image layouts
+
+```swift
+struct ImageCompositionView: View {
+    var body: some View {
+        VStack(spacing: 40) {
+            // Profile avatar with status
+            ZStack(alignment: .bottomTrailing) {
+                // Profile image
+                Circle()
+                    .fill(Color.gray.opacity(0.3))
+                    .frame(width: 100, height: 100)
+                    .overlay(
+                        Image(systemName: "person.fill")
+                            .font(.system(size: 50))
+                            .foregroundColor(.gray)
+                    )
+
+                // Status indicator
+                Circle()
+                    .fill(Color.green)
+                    .frame(width: 30, height: 30)
+                    .overlay(
+                        Circle()
+                            .stroke(Color.white, lineWidth: 3)
+                    )
+            }
+
+            // Image card
+            VStack(alignment: .leading, spacing: 10) {
+                Rectangle()
+                    .fill(
+                        LinearGradient(
+                            colors: [.blue, .purple],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        )
+                    )
+                    .frame(height: 200)
+                    .overlay(
+                        Image(systemName: "photo.on.rectangle")
+                            .font(.system(size: 60))
+                            .foregroundColor(.white.opacity(0.8))
+                    )
+                    .cornerRadius(20)
+
+                Text("Beautiful Sunset")
+                    .font(.headline)
+                Text("Captured yesterday evening")
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+            }
+            .padding()
+            .background(Color(.systemGray6))
+            .cornerRadius(20)
+        }
+        .padding()
+    }
+}
+```
+
+**Beginner Tip**: Always use `.resizable()` and `.scaledToFit()` or `.scaledToFill()` when working with images
+
 ## Chapter 7: System Icons and SF Symbols
 
 ### Exercise 7.1: Using SF Symbols (Beginner)

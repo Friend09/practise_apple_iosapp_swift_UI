@@ -50,8 +50,10 @@ struct TextBasicsView: View {
     }
 }
 
-#Preview {
-    TextBasicsView()
+struct TextBasicsView_Previews: PreviewProvider {
+    static var previews: some View {
+        TextBasicsView()
+    }
 }
 ```
 
@@ -91,8 +93,10 @@ struct AdvancedTextView: View {
     }
 }
 
-#Preview {
-    AdvancedTextView()
+struct AdvancedTextView_Previews: PreviewProvider {
+    static var previews: some View {
+        AdvancedTextView()
+    }
 }
 ```
 
@@ -139,8 +143,10 @@ struct DynamicTextView: View {
     }
 }
 
-#Preview {
-    DynamicTextView()
+struct DynamicTextView_Previews: PreviewProvider {
+    static var previews: some View {
+        DynamicTextView()
+    }
 }
 ```
 
@@ -182,8 +188,10 @@ struct BasicShapesView: View {
     }
 }
 
-#Preview {
-    BasicShapesView()
+struct BasicShapesView_Previews: PreviewProvider {
+    static var previews: some View {
+        BasicShapesView()
+    }
 }
 ```
 
@@ -230,8 +238,10 @@ struct StyledShapesView: View {
     }
 }
 
-#Preview {
-    StyledShapesView()
+struct StyledShapesView_Previews: PreviewProvider {
+    static var previews: some View {
+        StyledShapesView()
+    }
 }
 ```
 
@@ -251,8 +261,6 @@ Circle()
 ### Exercise 4.1: Working with Colors (Solution)
 
 ```swift
-import SwiftUI
-
 struct ColorsView: View {
     var body: some View {
         ScrollView {
@@ -308,8 +316,10 @@ struct ColorsView: View {
     }
 }
 
-#Preview {
-    ColorsView()
+struct ColorsView_Previews: PreviewProvider {
+    static var previews: some View {
+        ColorsView()
+    }
 }
 ```
 
@@ -385,8 +395,10 @@ struct GradientView: View {
     }
 }
 
-#Preview {
-    GradientView()
+struct GradientView_Previews: PreviewProvider {
+    static var previews: some View {
+        GradientView()
+    }
 }
 ```
 
@@ -446,8 +458,10 @@ struct SFSymbolsView: View {
     }
 }
 
-#Preview {
-    SFSymbolsView()
+struct SFSymbolsView_Previews: PreviewProvider {
+    static var previews: some View {
+        SFSymbolsView()
+    }
 }
 ```
 
@@ -505,8 +519,10 @@ struct IconButtonsView: View {
     }
 }
 
-#Preview {
-    IconButtonsView()
+struct IconButtonsView_Previews: PreviewProvider {
+    static var previews: some View {
+        IconButtonsView()
+    }
 }
 ```
 
@@ -571,8 +587,10 @@ struct ImagesView: View {
     }
 }
 
-#Preview {
-    ImagesView()
+struct ImagesView_Previews: PreviewProvider {
+    static var previews: some View {
+        ImagesView()
+    }
 }
 ```
 
@@ -644,8 +662,10 @@ struct ImageCompositionView: View {
     }
 }
 
-#Preview {
-    ImageCompositionView()
+struct ImageCompositionView_Previews: PreviewProvider {
+    static var previews: some View {
+        ImageCompositionView()
+    }
 }
 ```
 
@@ -736,8 +756,10 @@ struct ContactRow: View {
     }
 }
 
-#Preview {
-    BusinessCardView()
+struct BusinessCardView_Previews: PreviewProvider {
+    static var previews: some View {
+        BusinessCardView()
+    }
 }
 ```
 
