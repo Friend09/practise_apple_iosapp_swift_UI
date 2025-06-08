@@ -46,11 +46,35 @@ struct AdvanedTextView: View {
 }
 
 // preview
-struct AdvanedTextView_Previews: PreviewProvider {
-    static var previews: some View {
-        AdvanedTextView()
+//struct AdvanedTextView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        AdvanedTextView()
+//    }
+//}
+
+// ### Exercise 2.3: Dynamic Text (Solution)
+struct DynamicTextView: View {
+    let userName = "SwiftUI Learner"
+    let score = 42
+    
+    var body: some View {
+        VStack(spacing: 20) {
+            Text("Welcome, \(userName)!")
+            Text("Your score: \(score) points")
+            Text("Learn ")
+                .font(.body)
+            + Text("SwiftUI")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(.blue)
+            + Text(" Today!")
+                .font(.body)
+        }
     }
 }
 
-// ### Exercise 2.3: Dynamic Text (Solution)
-struct DynamicTextView
+struct DynamicTextView_Previews: PreviewProvider {
+    static var previews: some View {
+        DynamicTextView()
+    }
+}
