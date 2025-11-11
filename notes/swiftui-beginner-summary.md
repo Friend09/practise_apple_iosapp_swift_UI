@@ -142,26 +142,31 @@ Throughout all documents, SwiftUI concepts are now compared to Python UI framewo
 ## Learning Path Recommendations
 
 ### Week 1: UI Fundamentals
+
 - Start with static views (Text, Image, Shapes)
 - Practice modifiers and styling
 - Build a simple business card app
 
 ### Week 2: Layout Mastery
+
 - Master Stack layouts
 - Understand spacing and alignment
 - Create a photo gallery layout
 
 ### Week 3: Interactivity
+
 - Add @State for dynamic UI
 - Handle user input
 - Build an interactive calculator
 
 ### Week 4: Navigation & Forms
+
 - Implement navigation flows
 - Create data entry forms
 - Develop a contacts app
 
 ### Week 5: Advanced Topics
+
 - Add animations and gestures
 - Implement data persistence
 - Complete a full todo list app

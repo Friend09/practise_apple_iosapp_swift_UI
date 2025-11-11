@@ -5,9 +5,9 @@
 ├── notes
 │   ├── swift-beginner-summary.md
 │   ├── swift-ch1-5-solutions.md
-│   ├── swift-ch11-end-solutions.md
 │   ├── swift-ch6-7-solutions.md
 │   ├── swift-ch8-11-solutions.md
+│   ├── swift-ch11-end-solutions.md
 │   └── swift-practice-material.md
 
 - the material was based on the youtube video series
