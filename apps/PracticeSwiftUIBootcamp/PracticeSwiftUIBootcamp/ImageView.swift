@@ -1,15 +1,18 @@
-//
-//  ImageView.swift
-//  PracticeSwiftUIBootcamp
-//
-//  Created by raghuvamsi ayapilla on 11/19/25.
-//
-
 import SwiftUI
 
 struct ImageView: View {
     var body: some View {
-        Text("ImageView")
+        Image("raghuvamsi")
+            .resizable()
+//            .aspectRatio(contentMode: .fit)
+            .scaledToFit()
+            .frame(width: 600, height: 400)
+//            .clipped()
+//            .clipShape(
+//                Circle()
+//                RoundedRectangle(cornerRadius: 25.0)
+//                Ellipse()
+//            )
     }
 }
 
