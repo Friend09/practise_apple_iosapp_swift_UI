@@ -1,15 +1,24 @@
-//
-//  StacksView.swift
-//  PracticeSwiftUIBootcamp
-//
-//  Created by raghuvamsi ayapilla on 11/26/25.
-//
-
 import SwiftUI
 
 struct StacksView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 50) {
+            ZStack {
+                Circle()
+                    .frame(width: 100, height: 100)
+            Text("1")
+                .font(.title)
+                .foregroundStyle(.red)
+            }
+        }
+        
+        Text("1")
+            .font(.title)
+            .foregroundStyle(.white)
+            .background(
+                Circle()
+                    .frame(width: 100, height: 100)
+            )
     }
 }
 
