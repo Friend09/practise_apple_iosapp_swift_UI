@@ -1,15 +1,19 @@
-//
-//  ForEachView.swift
-//  PracticeSwiftUIBootcamp
-//
-//  Created by raghuvamsi ayapilla on 12/5/25.
-//
-
 import SwiftUI
 
 struct ForEachView: View {
+    let data: [String] = ["Hi", "Mesharu", "Ela Unnaru"]
+    let myString: String = "Hello"
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(myString)
+            
+            ForEach(data.indices) { index in
+                HStack {
+                    Text("I am inside a loop. Showing \(data[index])")
+                }
+            }
+        }
     }
 }
 
