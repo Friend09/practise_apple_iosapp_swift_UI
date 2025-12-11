@@ -1,18 +1,18 @@
 //
-//  ScrollView.swift
+//  MyGridView.swift
 //  PracticeSwiftUIBootcamp
 //
-//  Created by raghuvamsi ayapilla on 12/6/25.
+//  Created by raghuvamsi ayapilla on 12/8/25.
 //
 
 import SwiftUI
 
-struct ScrollView: View {
+struct MyGridView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ScrollView()
+    MyGridView()
 }
