@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9BB08B02F1F93D0000186EC /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB08AF2F1F93D0000186EC /* PopoverView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		C9BB08AF2F1F93D0000186EC /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		C9C4AA512EC2D06F000EED19 /* PracticeSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		C9C4AA482EC2D06F000EED19 = {
 			isa = PBXGroup;
 			children = (
+				C9BB08AF2F1F93D0000186EC /* PopoverView.swift */,
 				C9C4AA532EC2D06F000EED19 /* PracticeSwiftUIBootcamp */,
 				C9C4AA522EC2D06F000EED19 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BB08B02F1F93D0000186EC /* PopoverView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
