@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C958392F2F21BD7A003AF36D /* NavigationBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C958392E2F21BD7A003AF36D /* NavigationBootcampView.swift */; };
 		C9BB08B02F1F93D0000186EC /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BB08AF2F1F93D0000186EC /* PopoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C958392E2F21BD7A003AF36D /* NavigationBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBootcampView.swift; sourceTree = "<group>"; };
 		C9BB08AF2F1F93D0000186EC /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		C9C4AA512EC2D06F000EED19 /* PracticeSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -37,6 +39,7 @@
 		C9C4AA482EC2D06F000EED19 = {
 			isa = PBXGroup;
 			children = (
+				C958392E2F21BD7A003AF36D /* NavigationBootcampView.swift */,
 				C9BB08AF2F1F93D0000186EC /* PopoverView.swift */,
 				C9C4AA532EC2D06F000EED19 /* PracticeSwiftUIBootcamp */,
 				C9C4AA522EC2D06F000EED19 /* Products */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9BB08B02F1F93D0000186EC /* PopoverView.swift in Sources */,
+				C958392F2F21BD7A003AF36D /* NavigationBootcampView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
