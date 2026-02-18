@@ -6,13 +6,8 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		C9EF18582F342DE00006CFEA /* ActionsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EF18572F342DE00006CFEA /* ActionsheetView.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
 		C9C4AA512EC2D06F000EED19 /* PracticeSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9EF18572F342DE00006CFEA /* ActionsheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsheetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +32,6 @@
 		C9C4AA482EC2D06F000EED19 = {
 			isa = PBXGroup;
 			children = (
-				C9EF18572F342DE00006CFEA /* ActionsheetView.swift */,
 				C9C4AA532EC2D06F000EED19 /* PracticeSwiftUIBootcamp */,
 				C9C4AA522EC2D06F000EED19 /* Products */,
 			);
@@ -125,7 +119,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9EF18582F342DE00006CFEA /* ActionsheetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
