@@ -6,7 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C975DF442F4F0727000101C4 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975DF432F4F0727000101C4 /* TextEditorView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		C975DF432F4F0727000101C4 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextEditorView.swift; path = PracticeSwiftUIBootcamp/TextEditorView.swift; sourceTree = "<group>"; };
 		C9C4AA512EC2D06F000EED19 /* PracticeSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +37,7 @@
 		C9C4AA482EC2D06F000EED19 = {
 			isa = PBXGroup;
 			children = (
+				C975DF432F4F0727000101C4 /* TextEditorView.swift */,
 				C9C4AA532EC2D06F000EED19 /* PracticeSwiftUIBootcamp */,
 				C9C4AA522EC2D06F000EED19 /* Products */,
 			);
@@ -119,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C975DF442F4F0727000101C4 /* TextEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
