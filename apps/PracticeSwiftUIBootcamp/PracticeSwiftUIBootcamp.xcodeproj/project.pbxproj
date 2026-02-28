@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C975DF442F4F0727000101C4 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975DF432F4F0727000101C4 /* TextEditorView.swift */; };
+		C9CFC2A92F53071B00187732 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFC2A82F53071B00187732 /* ToggleView.swift */; };
+		C9CFC2AD2F53091600187732 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFC2AC2F53091600187732 /* PickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C975DF432F4F0727000101C4 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextEditorView.swift; path = PracticeSwiftUIBootcamp/TextEditorView.swift; sourceTree = "<group>"; };
 		C9C4AA512EC2D06F000EED19 /* PracticeSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9CFC2A82F53071B00187732 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ToggleView.swift; path = PracticeSwiftUIBootcamp/ToggleView.swift; sourceTree = "<group>"; };
+		C9CFC2AC2F53091600187732 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickerView.swift; path = PracticeSwiftUIBootcamp/PickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -37,7 +41,9 @@
 		C9C4AA482EC2D06F000EED19 = {
 			isa = PBXGroup;
 			children = (
+				C9CFC2AC2F53091600187732 /* PickerView.swift */,
 				C975DF432F4F0727000101C4 /* TextEditorView.swift */,
+				C9CFC2A82F53071B00187732 /* ToggleView.swift */,
 				C9C4AA532EC2D06F000EED19 /* PracticeSwiftUIBootcamp */,
 				C9C4AA522EC2D06F000EED19 /* Products */,
 			);
@@ -125,6 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9CFC2A92F53071B00187732 /* ToggleView.swift in Sources */,
+				C9CFC2AD2F53091600187732 /* PickerView.swift in Sources */,
 				C975DF442F4F0727000101C4 /* TextEditorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
