@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C91721892F6166D900A9F906 /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91721882F6166D900A9F906 /* ColorPickerView.swift */; };
+		C9564A0E2F736994001BE4BC /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9564A0D2F736994001BE4BC /* StepperView.swift */; };
 		C975DF442F4F0727000101C4 /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C975DF432F4F0727000101C4 /* TextEditorView.swift */; };
 		C97F69202F68E35300E8E455 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97F691F2F68E35300E8E455 /* DatePickerView.swift */; };
 		C9CFC2A92F53071B00187732 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CFC2A82F53071B00187732 /* ToggleView.swift */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		C91721882F6166D900A9F906 /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ColorPickerView.swift; path = PracticeSwiftUIBootcamp/ColorPickerView.swift; sourceTree = "<group>"; };
+		C9564A0D2F736994001BE4BC /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StepperView.swift; path = PracticeSwiftUIBootcamp/StepperView.swift; sourceTree = "<group>"; };
 		C975DF432F4F0727000101C4 /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextEditorView.swift; path = PracticeSwiftUIBootcamp/TextEditorView.swift; sourceTree = "<group>"; };
 		C97F691F2F68E35300E8E455 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatePickerView.swift; path = PracticeSwiftUIBootcamp/DatePickerView.swift; sourceTree = "<group>"; };
 		C9C4AA512EC2D06F000EED19 /* PracticeSwiftUIBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticeSwiftUIBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,6 +47,7 @@
 		C9C4AA482EC2D06F000EED19 = {
 			isa = PBXGroup;
 			children = (
+				C9564A0D2F736994001BE4BC /* StepperView.swift */,
 				C91721882F6166D900A9F906 /* ColorPickerView.swift */,
 				C97F691F2F68E35300E8E455 /* DatePickerView.swift */,
 				C9CFC2AC2F53091600187732 /* PickerView.swift */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9564A0E2F736994001BE4BC /* StepperView.swift in Sources */,
 				C9CFC2A92F53071B00187732 /* ToggleView.swift in Sources */,
 				C9CFC2AD2F53091600187732 /* PickerView.swift in Sources */,
 				C97F69202F68E35300E8E455 /* DatePickerView.swift in Sources */,
